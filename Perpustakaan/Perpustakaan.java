@@ -24,9 +24,8 @@ public class Perpustakaan {
         int stok2 = 5;
 
         //boolean type = true;
-
-
         //while (type) {
+            
         System.out.println("\nMenu:");
         System.out.println("1. Tampilkan Daftar Buku");
         System.out.println("2. Pinjam Buku");
