@@ -13,9 +13,7 @@ public class Pemilihan114 {
         // }else{
         //     System.out.println("Angka "+angka+" Bilangan Ganjil");
         // }
-
-        //hasi
-        //hasil
+        
         String hasil = angka % 2 == 0 ? "Angka " + angka + " Bilangan Genap" : "Angka " + angka + " Bilangan Ganjil";
         System.out.println(hasil);
     }
