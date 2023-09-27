@@ -19,40 +19,21 @@ public class Pemilihan214 {
         //System.out.println("Nilai akhir = " + total + " sehingga " + message); 
 
         if (80<total && total<=100){
-            System.out.println("predikat A\nNilai Setara 4\nKualifikasi Sangat Baik");
+            System.out.println("predikat A, Nilai Setara 4, Kualifikasi Sangat Baik");
         }else if (73<total && total<= 80){
-            System.out.println("predikat B+\nNilai Setara 3.5\nKualifikasi Lebih dari Baik");
+            System.out.println("predikat B+, Nilai Setara 3.5, Kualifikasi Lebih dari Baik");
         }else if (65<total && total<= 73){
-            System.out.println("predikat B\nNilai Setara 3\nKualifikasi Baik");
+            System.out.println("predikat B, Nilai Setara 3, Kualifikasi Baik");
         }else if (60<total && total<= 65){
-            System.out.println("predikat C+\nNilai Setara 2.5\nKualifikasi Lebih dari Cukup");
+            System.out.println("predikat C+, Nilai Setara 2.5, Kualifikasi Lebih dari Cukup");
         }else if (50<total && total<=60) {
-            System.out.println("predikat C\nNilai Setara 2\nKualifikasi Cukup");
+            System.out.println("predikat C, Nilai Setara 2, Kualifikasi Cukup");
         }else if (39<total && total<50){
-            System.out.println("predikat D\nNilai Setara 1\nKualifikasi Kurang");
+            System.out.println("predikat D, Nilai Setara 1, Kualifikasi Kurang");
         }else {
-            System.out.println("predikat E\nNilai Setara 0\nKualifikasi Gagal");
+            System.out.println("predikat E, Nilai Setara 0, Kualifikasi Gagal");
         }
 
         System.out.println("Nilai akhir = " + total + " sehingga " + message);
-
-        // String predikat;
-        // if (total <= 100) {
-        //     predikat = "A";
-        // }else if (total <= 80){
-        //     predikat = "B+";
-        // }else if (total <= 73){
-        //     predikat = "B";
-        // }else if (total <=65){
-        //     predikat = "C+";
-        // }else if (total <= 60){
-        //     predikat = "C";
-        // }else if (total <= 50){
-        //     predikat = "D";
-        // }else (total <= 39){
-        //     predikat = "E";
-        // }
-
-        // System.out.println("Nilai akhir = " + total + " sehingga " + message + predikat);
     }
 }
