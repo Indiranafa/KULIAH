@@ -174,6 +174,7 @@ public class Perpustakaan {
                     }
                     // break;
 
+                    
                 // lek case 4 itu perintah nampilin info buku, dari judul buku, nama penerbit,
                 // nama pengarang, dll
                 case 5:
@@ -188,11 +189,14 @@ public class Perpustakaan {
                             + penerbit2 + ", " + "Stok: " + stok2);
                     // break;
 
+
+
                 // case 5 ini perintah logout/keluar
                 case 6:
                     System.out.println("\nTerima kasih telah menggunakan sistem perpustakaan.");
                     scan.close();
                     System.exit(0);
+
 
                     // default itu jika semua perintah salah maka bakal menjalankan perintah dari
                     // default, outputnya bakal keluar tulisan "pilihan tidak valid bla bla bla"
